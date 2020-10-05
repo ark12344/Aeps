@@ -1,0 +1,29 @@
+SSL Certificate in aws 
+
+1) Request a certificate for the Domain name
+2) going to validate the request byEmail 
+3) Enable the ssl request cloud front.
+
+
+Login in to Aws console management 
+Security& identity
+Certificate manger .(ACM)
+
+Provision certificates -getStarted - Request a public certificate - request
+
+name of domain - ipaymall.com
+ wild card certificate for subdomainnames for the website---*. and then domainname
+choose the validation ===DNS validation or Email validation-- Email
+Review -confirm and request
+validate --
+
+
+now you will receive an email from Amazon web services for validation ====click on the link and click I APPROVE
+
+then your SSL/TLS certificate for the domainname is ready .
+
+			or
+
+Choose DNS Validation - review -confirm and request.
+ Validate- to do that we need to create a CNAME record. 
+ 
